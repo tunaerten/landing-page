@@ -181,6 +181,7 @@ span {
   color: var(--clr-white);
   border-radius: 220px;
   height: 3.5rem;
+  cursor: pointer;
 }
 
 .download {
@@ -204,6 +205,15 @@ span {
 
 .download:last-child .light {
   color: var(--clr-purple-300);
+}
+
+.btn:first-child:hover {
+  background-color: #71c0d4;
+}
+
+.btn:last-child:hover,
+.download:last-child:hover {
+  background-color: #b18bdd;
 }
 
 /* SECTION-ONE */
